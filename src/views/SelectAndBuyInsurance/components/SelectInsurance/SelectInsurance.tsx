@@ -42,7 +42,7 @@ export default function SelectInsurance({ selectedPackage, setSelectedPackage }:
 								/>
 								<div>{_package.name}</div>
 							</div>
-							<div>{_package.pricePerMonth} $</div>
+							<div>${_package.pricePerMonth.toFixed(2)}/month</div>
 						</div>
 						<div className="Description">{_package.description}</div>
 						<div className="BuyNowButtonContainer">
