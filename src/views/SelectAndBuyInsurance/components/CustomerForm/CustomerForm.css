@@ -1,0 +1,11 @@
+.CustomerForm {
+	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.CustomerForm .SubmitButtonContainer {
+	display: flex;
+	justify-content: flex-end;
+}

@@ -1,0 +1,28 @@
+.SelectInsurance .Packages {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.SelectInsurance .Packages .Package .NameAndPrice {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+	font-weight: bold;
+	align-items: center;
+}
+
+.SelectInsurance .Packages .Package .Description {
+	padding-top: 8px;
+}
+
+.SelectInsurance .Packages .Package .BuyNowButtonContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.SelectInsurance .Packages .Package .NameAndPrice .NameContainer {
+	display: flex;
+	align-items: center;
+}
